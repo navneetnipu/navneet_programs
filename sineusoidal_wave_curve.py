@@ -1,0 +1,17 @@
+import matplotlib.pyplot as mplt
+import numpy as nb
+A=input("enter the value of amplitide for the sinusoidal wave:")
+print("\n")
+T=input("enter the time period for the wave in seconds:")
+print("\n")
+l=input("enter the wave length for teh wave in meters:")
+print("\n")
+x=input("enter the x cordinate range value:")
+print("\n")
+t=input("enter the value for time in seconds:")
+print("\n")
+f = lambda x,t: A*np.sin(2*pi*(1/T)*i*np.cos(2*pi*(1/T)*j)
+for i in range(-x,x)
+    for j in range(-t,t)
+        print("  ",f(i,j),"  ")
+    print("\n")
